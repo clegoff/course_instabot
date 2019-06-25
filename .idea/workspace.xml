@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec96761-61eb-4ac9-bce3-21f4222f3c05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/algorithms/MyCanvas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/MyCanvas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compileAndCopy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/compileAndCopy.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/MyCanvas.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="216">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compileAndCopy.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -87,10 +96,12 @@
       <find>=</find>
       <find>BrainCanevas</find>
       <find>bind</find>
-      <find>Brain</find>
       <find>brain</find>
+      <find>course_instabot</find>
+      <find>Brain</find>
     </findStrings>
     <dirStrings>
+      <dir>C:\Users\clego\eclipse-workspace\course_instabot401_2\algorithms</dir>
       <dir>C:\Users\clego\eclipse-workspace\course_instabot401_2</dir>
     </dirStrings>
   </component>
@@ -106,6 +117,7 @@
         <option value="$PROJECT_DIR$/characteristics/Parameters.h" />
         <option value="$PROJECT_DIR$/algorithms/test.cpp" />
         <option value="$PROJECT_DIR$/algorithms/MyCanvas.cpp" />
+        <option value="$PROJECT_DIR$/compileAndCopy.sh" />
       </list>
     </option>
   </component>
@@ -179,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561448210387</updated>
-      <workItem from="1561448211651" duration="4832000" />
+      <workItem from="1561448211651" duration="5765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4832000" />
+    <option name="totallyTimeSpent" value="5765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -288,8 +300,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/MyCanvas.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="216">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compileAndCopy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
