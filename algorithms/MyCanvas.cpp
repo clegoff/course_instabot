@@ -1,7 +1,7 @@
 #include "Parameters.h"
 #include "MyCanvas.h"
 
-int MAXPASDEJEU=900;
+int MAXPASDEJEU=130;
 
 int pasDeJeuCourrant;
 
