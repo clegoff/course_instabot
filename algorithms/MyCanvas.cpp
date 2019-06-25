@@ -1,7 +1,7 @@
 #include "Parameters.h"
 #include "MyCanvas.h"
 
-int MAXPASDEJEU=900;
+int MAXPASDEJEU=280;
 
 int pasDeJeuCourrant;
 
@@ -36,21 +36,21 @@ void MyCanvas::step() {
         resetCounterDroite();
     }*/
 
-    if (pasDeJeuCourrant>=190){
+    if (pasDeJeuCourrant>=200){
         move();
         return;
     }
 
-    if (pasDeJeuCourrant>=150){
+    if (pasDeJeuCourrant>=160){
         stepTurn(LEFT);
         return;
     }
 
-    if (pasDeJeuCourrant>110 && pasDeJeuCourrant<120){
+    if (pasDeJeuCourrant>=130){
         return;
     }
 
-    if (pasDeJeuCourrant>=110){
+    if (pasDeJeuCourrant>=90){
         move();
         return;
     }
@@ -60,7 +60,7 @@ void MyCanvas::step() {
         return;
     }
 
-    if (pasDeJeuCourrant>40 && pasDeJeuCourrant<60){
+    if (pasDeJeuCourrant>40){
         return;
     }
 
