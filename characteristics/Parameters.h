@@ -63,13 +63,13 @@ public:
     int readCounterDroite();
 };
 
-class BrainCanevas: public ServiceRequisActionMoteur,
+class MyCanvas: public ServiceRequisActionMoteur,
                     public ServiceInitialisation,
                     public ServiceActionPasAPas {
 private:
     ServiceActionMoteur* actionMoteur;
 public:
-    BrainCanevas();
+    MyCanvas();
     void activate();
     void step();
     void bindServiceActionMoteur(ServiceActionMoteur* service);
