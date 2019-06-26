@@ -44,7 +44,10 @@ public:
     virtual void bindServiceActionPasAPas(ServiceActionPasAPas* service)=0;
 };
 
-
+class ServiceFrontDetect {
+public:
+    virtual void bindServiceFrontDetect(ServiceFrontDetect* service)=0;
+};
 
 //---COMPOSANTS---//
 class Hardware: public ServiceActionMoteur {
@@ -65,8 +68,9 @@ public:
 };
 
 class MyCanvas: public ServiceRequisActionMoteur,
-                    public ServiceInitialisation,
-                    public ServiceActionPasAPas {
+                public ServiceRequisFrontDetect,
+                public ServiceInitialisation,
+                public ServiceActionPasAPas {
 private:
     ServiceActionMoteur* actionMoteur;
 public:
@@ -83,11 +87,9 @@ public:
     int readCounterDroite();
 };
 
-class Captor : public ServiceRequisActionMoteur,
-               public ServiceInitialisation,
-               public ServiceActionPasAPas {
-    public:
-        Captor();
-        void detect();
+class Captor : public ServiceFrontDetect {
+public:
+    Captor();
+    void detect();
 
 };

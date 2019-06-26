@@ -1,7 +1,6 @@
 #include "Parameters.h"
 #include "HMC5883L.h"
 #include "MotorEncoder.h"
-#include "Captor.h"
 
 #define PWMGAUCHE D9
 #define DIRGAUCHE D7
@@ -107,8 +106,4 @@ int Hardware::readCounterGauche(){
 
 int Hardware::readCounterDroite(){
     return counterDroite.read();
-}
-
-void Hardware::detect(){
-    frontCaptor.detect()
 }

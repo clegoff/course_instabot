@@ -7,6 +7,7 @@ int main() {
     
     hardware=new Hardware();
     brain=new MyCanvas();
+    frontCaptor = new Captor();
     
     //---BINDING---//
     brain->bindServiceActionMoteur(hardware);
@@ -18,6 +19,7 @@ int main() {
     while(1){
         hardware->stop();
         brain->step();
+        frontCaptor->detect();
         wait(0.1);
     }
 }
