@@ -65,8 +65,9 @@ public:
 };
 
 class MyCanvas: public ServiceRequisActionMoteur,
-                    public ServiceInitialisation,
-                    public ServiceActionPasAPas {
+                public ServiceRequisFrontDetect,
+                public ServiceInitialisation,
+                public ServiceActionPasAPas {
 private:
     ServiceActionMoteur* actionMoteur;
 public:
@@ -83,9 +84,7 @@ public:
     int readCounterDroite();
 };
 
-class Captor : public ServiceRequisActionMoteur,
-               public ServiceInitialisation,
-               public ServiceActionPasAPas {
+class Captor : public ServiceFrontDetect {
     public:
         Captor();
         void detect();
