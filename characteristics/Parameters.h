@@ -88,14 +88,7 @@ public:
 };
 
 class Captor : public ServiceFrontDetect {
-<<<<<<< HEAD
 public:
     Captor();
     void detect();
-=======
-    public:
-        Captor();
-        void detect();
->>>>>>> 9ef5a7529e7040168159cbd44b05f262144c0b58
-
 };
