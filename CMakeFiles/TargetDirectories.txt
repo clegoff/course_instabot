@@ -1,0 +1,2 @@
+C:/Users/clego/eclipse-workspace/course_instabot401_2/CMakeFiles/ALL_BUILD.dir
+C:/Users/clego/eclipse-workspace/course_instabot401_2/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\clego\eclipse-workspace\course_instabot401_2
+It was created with incompatible generator 'Visual Studio 15 2017'
+
+Please either delete it manually or select another generation directory

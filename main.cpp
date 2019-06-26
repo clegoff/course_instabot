@@ -4,9 +4,11 @@ int main() {
     //---INSTANCIATIONS---//
     ServiceActionMoteur* hardware;
     MyCanvas* brain;
+    Captor* captors;
     
     hardware=new Hardware();
     brain=new MyCanvas();
+    captors=new Captor();
     
     //---BINDING---//
     brain->bindServiceActionMoteur(hardware);
@@ -18,6 +20,7 @@ int main() {
     while(1){
         hardware->stop();
         brain->step();
+        captors->detect();
         wait(0.1);
     }
 }
