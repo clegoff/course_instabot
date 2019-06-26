@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec96761-61eb-4ac9-bce3-21f4222f3c05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/characteristics/Parameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/characteristics/Parameters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/characteristics/Parameters.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+            <state relative-caret-position="126">
+              <caret line="64" column="2" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -75,6 +75,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -110,7 +119,6 @@
       <find>PWMGAUCHE</find>
       <find>D9</find>
       <find>dirgauche</find>
-      <find>course_instabot</find>
       <find>Pulse</find>
       <find>ServiceActionMoteur</find>
       <find>actionMoteur()</find>
@@ -127,6 +135,8 @@
       <find>activate</find>
       <find>counterGauche</find>
       <find>readc</find>
+      <find>course_instabot</find>
+      <find>detect</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\clego\eclipse-workspace\course_instabot401_2\algorithms</dir>
@@ -144,7 +154,6 @@
         <option value="$PROJECT_DIR$/compileAndCopy.sh" />
         <option value="$PROJECT_DIR$/algorithms/Pulse.cpp" />
         <option value="$PROJECT_DIR$/characteristics/Pulse.h" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/algorithms/MyCanvas.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/characteristics/RangeFinder.h" />
@@ -154,6 +163,7 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/supportMateriel/Hardware.cpp" />
         <option value="$PROJECT_DIR$/characteristics/Parameters.h" />
+        <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
   </component>
@@ -175,6 +185,11 @@
             <path>
               <item name="course_instabot401_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="course_instabot401_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course_instabot401_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course_instabot401_2" type="462c0819:PsiDirectoryNode" />
+              <item name=".build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course_instabot401_2" type="b2602c69:ProjectViewProjectNode" />
@@ -241,12 +256,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561448210387</updated>
       <workItem from="1561448211651" duration="20856000" />
-      <workItem from="1561553407249" duration="4232000" />
+      <workItem from="1561553407249" duration="4506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25088000" />
+    <option name="totallyTimeSpent" value="25362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -356,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/characteristics/Captor.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -407,8 +415,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/characteristics/Parameters.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        <state relative-caret-position="126">
+          <caret line="64" column="2" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
