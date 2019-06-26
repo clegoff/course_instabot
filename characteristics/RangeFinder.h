@@ -1,6 +1,6 @@
 #define MBED_RANGEFINDER_H
 
-#include "Pulse.h"
+#include "../Pulse.h"
 
 /** Range Finder class
  */

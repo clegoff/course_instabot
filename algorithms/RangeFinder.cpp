@@ -1,5 +1,5 @@
 
-#include "RangeFinder.h"
+#include "../characteristics/RangeFinder.h"
 
 RangeFinder::RangeFinder(PinName pin, int pulsetime, float scale, int time):
         pio(pin), scale(scale), pulsetime(pulsetime), timeout(time)  {
