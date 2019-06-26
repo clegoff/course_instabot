@@ -3,54 +3,9 @@
 #include "Captor.h"
 #include "RangeFinder.h"
 
-#define DELTA 200
-#define DELTATEMPS 0.4
-
-#define UP 0
-#define DOWN 1
-
-#define LEFTUP 0
-#define LEFTDOWN 1
-#define RIGHTUP 1
-#define RIGHTDOWN 0
-
-PwmOut redled(D2);
-PwmOut greenled(D12);
-RangeFinder ranger(D3, 10, 5800.0, 100000);
-
-PwmOut pwmRight(D10);
-DigitalOut dirRight(D8);
-PwmOut pwmLeft(D9);
-DigitalOut dirLeft(D7);
-
-float distance=0;
-bool iSeeYou=false;
-bool warning=false;
-
-pwmRight.period_us(1000);
-pwmLeft.period_us(1000);
-dirRight=RIGHTUP;
-dirLeft=LEFTUP;
-pwmRight.pulsewidth_us(0);
-pwmLeft.pulsewidth_us(0);
-
-wait(1);
-
-greenled=UP;redled=UP;
-wait(.5);
-greenled=DOWN;redled=DOWN;
-wait(.5);
-greenled=UP;redled=UP;
-wait(.5);
-greenled=DOWN;redled=DOWN;
-wait(.5);
-greenled=UP;redled=UP;
-wait(.5);
-greenled=DOWN;redled=DOWN;
-wait(2);
-
-float distance=0;
-int blink=DOWN;
+Captor::Captor():
+    DELTA(200), DELTATEMPS(0.4), UP(0), DOWN(1), LEFTUP(0), LEFTDOWN(1), RIGHTUP(1), RIGHTDOWN(0), distance(0),
+    iSeeYou(false), warning(false), dirRight(RIGHTUP), dirLeft(LEFTUP), blink(DOWN) {}
 
 void Captor::detect() {
     if (blink==UP) {blink=DOWN;} else {blink=UP;}
@@ -108,5 +63,4 @@ void Captor::detect() {
         pwmLeft.pulsewidth_us(0);
     }
     wait(DELTATEMPS);
-}
 }
