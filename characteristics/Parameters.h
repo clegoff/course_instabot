@@ -81,3 +81,12 @@ public:
     int readCounterGauche();
     int readCounterDroite();
 };
+
+class Captor : public ServiceRequisActionMoteur,
+               public ServiceInitialisation,
+               public ServiceActionPasAPas {
+    public:
+        Captor();
+        void detect();
+
+};
