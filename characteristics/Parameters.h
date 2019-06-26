@@ -81,3 +81,9 @@ public:
     int readCounterGauche();
     int readCounterDroite();
 };
+
+class Captor {
+public:
+    Captor();
+    void detect();
+};
