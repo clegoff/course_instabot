@@ -65,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/characteristics/Parameters.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -225,12 +225,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561448210387</updated>
       <workItem from="1561448211651" duration="20856000" />
-      <workItem from="1561553407249" duration="7035000" />
+      <workItem from="1561553407249" duration="7304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27891000" />
+    <option name="totallyTimeSpent" value="28160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -395,7 +395,7 @@
     <entry file="file://$PROJECT_DIR$/characteristics/Parameters.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>

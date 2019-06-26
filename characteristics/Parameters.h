@@ -46,6 +46,11 @@ public:
 
 class ServiceFrontDetect {
 public:
+    virtual void activate()=0;
+};
+
+class ServiceRequisFrontDetect {
+public:
     virtual void bindServiceFrontDetect(ServiceFrontDetect* service)=0;
 };
 
