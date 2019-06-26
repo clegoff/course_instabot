@@ -60,7 +60,8 @@ public:
     void resetCounterGauche();
     void resetCounterDroite();
     int readCounterGauche();
-    int readCounterDroite();
+    int readCounterDroite()
+    void detect()
 };
 
 class MyCanvas: public ServiceRequisActionMoteur,
