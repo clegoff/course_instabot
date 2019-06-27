@@ -1,4 +1,4 @@
-#include "Parameters.h"
+#include "characteristics/Parameters.h"
 
 int main() {
     //---INSTANCIATIONS---//
