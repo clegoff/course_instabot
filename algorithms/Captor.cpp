@@ -5,9 +5,11 @@
 
 Captor::Captor():
     DELTA(200), DELTATEMPS(0.4), UP(0), DOWN(1), LEFTUP(0), LEFTDOWN(1), RIGHTUP(1), RIGHTDOWN(0), distance(0),
-    iSeeYou(false), warning(false), dirRight(RIGHTUP), dirLeft(LEFTUP), blink(DOWN) {}
+    iSeeYou(false), warning(false), dirRight(RIGHTUP), dirLeft(LEFTUP), blink(DOWN) {
 
-void Captor::detect() {
+}
+
+boolean Captor::detect() {
     if (blink==UP) {blink=DOWN;} else {blink=UP;}
     distance=ranger.read_m();
 
@@ -63,4 +65,6 @@ void Captor::detect() {
         pwmLeft.pulsewidth_us(0);
     }
     wait(DELTATEMPS);
+
+    return iSeeYou;
 }

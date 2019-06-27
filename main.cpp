@@ -3,6 +3,7 @@
 int main() {
     //---INSTANCIATIONS---//
     ServiceActionMoteur* hardware;
+    ServiceFrontDetect* frontCaptor;
     MyCanvas* brain;
     
     hardware=new Hardware();
@@ -11,7 +12,7 @@ int main() {
     
     //---BINDING---//
     brain->bindServiceActionMoteur(hardware);
-    
+    brain->bindServiceFrontDetect(frontCaptor);
     //---CORPS PRINCIPAL---//
     brain->activate();
     
@@ -19,7 +20,6 @@ int main() {
     while(1){
         hardware->stop();
         brain->step();
-        frontCaptor->detect();
         wait(0.1);
     }
 }

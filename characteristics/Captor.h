@@ -1,14 +1,12 @@
 #define MBED_RANGEFINDER_H
 
-/*void Captor::bindServiceActionMoteur() {
-    actionMoteur=service;
-    return;
-}*/
+#include "RangeFinder.h"
+#include "mbed.h"
 
 class Captor {
 public:
     Captor();
-    void detect();
+    boolean detect();
 private:
     float DELTA;
     float DELTATEMPS;
@@ -26,4 +24,6 @@ private:
     int dirRight;
     int dirLeft;
     int blink;
+
+    RangeFinder ranger(D3, 10, 5800.0, 100000);
 };
